@@ -13,6 +13,7 @@
 		281E8CC31E95B0B800442F2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 281E8CC21E95B0B800442F2A /* Assets.xcassets */; };
 		281E8CC61E95B0B800442F2A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 281E8CC41E95B0B800442F2A /* LaunchScreen.storyboard */; };
 		281E8CD11E95B0B800442F2A /* QueueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281E8CD01E95B0B800442F2A /* QueueTests.swift */; };
+		281E8CDC1E95B4B300442F2A /* QueueModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281E8CDB1E95B4B300442F2A /* QueueModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		281E8CCC1E95B0B800442F2A /* QueueTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QueueTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		281E8CD01E95B0B800442F2A /* QueueTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueueTests.swift; sourceTree = "<group>"; };
 		281E8CD21E95B0B800442F2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		281E8CDB1E95B4B300442F2A /* QueueModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QueueModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				281E8CC21E95B0B800442F2A /* Assets.xcassets */,
 				281E8CC41E95B0B800442F2A /* LaunchScreen.storyboard */,
 				281E8CC71E95B0B800442F2A /* Info.plist */,
+				281E8CDB1E95B4B300442F2A /* QueueModel.swift */,
 			);
 			path = Queue;
 			sourceTree = "<group>";
@@ -201,6 +204,7 @@
 			files = (
 				281E8CBE1E95B0B800442F2A /* ViewController.swift in Sources */,
 				281E8CBC1E95B0B800442F2A /* AppDelegate.swift in Sources */,
+				281E8CDC1E95B4B300442F2A /* QueueModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,6 +348,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = test.com.Queue;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -356,6 +361,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = test.com.Queue;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
